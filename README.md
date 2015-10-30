@@ -7,11 +7,16 @@ How to Setup
 How to Use after setup
 ========================
 1.  To see html updates run:
+
 php ~/www/app/console cache:clear --env=dev --no-debug
+
 php ~/www/app/console cache:clear --env=prod --no-debug
 
+
 2.  To see js/css updates run:
+
 php ~/www/app/console assets:install
+
 php ~/www/app/console assetic:dump
 
 
